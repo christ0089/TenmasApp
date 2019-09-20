@@ -1,6 +1,8 @@
 {
   "name": "TenmasApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "16a6a5fb"
 }

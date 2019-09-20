@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { IonSlides } from '@ionic/angular';
+import { IonSlides, NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +13,9 @@ export class HomePage {
     spaceBetween: 5,
     centeredSlides: false
   };
-  @ViewChild('slides') slides: IonSlides;
-  constructor() {}
-
+  constructor(private navCtrl: NavController) {}
+  
+  openTransactions() {
+    this.navCtrl.navigateForward('transactions');
+  }
 }

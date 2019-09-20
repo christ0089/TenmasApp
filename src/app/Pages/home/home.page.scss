@@ -28,17 +28,18 @@ ion-list {
 }
 
 ion-card {
-    height: 150px;
+    height: 175px;
     img {
         width: 100%;
-        height: 125px;
-        object-fit: cover;
+        height: 150px;
+        object-fit: contain;
     }
 }
 
    
 ion-col {
     height: 100px;
+    width: 60px;
     background-color: rgb(156, 228, 238);
     color: white;
     font-weight: 500;
@@ -55,4 +56,17 @@ ion-col {
         width: 100%;
         overflow: hidden;
     }
+}
+
+#col_1 {
+    background: radial-gradient( #74D3F0, #73E0AA);
+}
+#col_2 {
+    background: radial-gradient( #73AEE0, #7482F0);
+}
+#col_3{
+    background: radial-gradient( #F0E674, #E3A542);
+}
+#col_4 {
+    background: radial-gradient( #F09A74, #E07373);
 }
