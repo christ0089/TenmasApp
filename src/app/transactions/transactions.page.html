@@ -1,12 +1,28 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Transaction</ion-title>
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref="home"></ion-back-button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
-</ion-content>
+    <div class="credit">
+      <div class="ion-padding">
+        <ion-icon name="arrow-back" routerLink="/tabs"></ion-icon><br>
+        <ion-label>Transaccion</ion-label><br>
+        <ion-label class="Money">$500</ion-label>
+      </div>
+      <div class="holder">
+        <div class="spacer">
+          <ion-label class="Title">Estado de la Transaccion</ion-label>
+        </div>
+        <ion-label class="Subtitle">Aprovado</ion-label>
+        <div class="spacer">
+          <ion-label class="Title">Fecha</ion-label>
+        </div>
+        <ion-label class="Subtitle">11/1/20</ion-label>  
+        <div class="spacer">
+            <ion-label class="Title">Interes</ion-label>
+        </div>
+        <ion-label class="Subtitle">3.5%</ion-label>
+        <div class="serviceButton">
+          <ion-button size="block" color="secondary">Aceptar</ion-button>
+        </div>
+  
+      </div>
+    </div>
+  
+  </ion-content>
